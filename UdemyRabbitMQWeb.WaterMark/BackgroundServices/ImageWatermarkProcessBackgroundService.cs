@@ -53,7 +53,7 @@ public class ImageWatermarkProcessBackgroundService : BackgroundService
 
             var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", productImageCreatedEvent.ImageName);
 
-            var siteName = "biMilyoncuMemet";
+            var siteName = "watermarkstring";
 
             using var img = Image.FromFile(path);
             using var graphic = Graphics.FromImage(img);
