@@ -14,7 +14,7 @@ namespace UdemyRabbitMQ.subscriber
         {
             var factory = new ConnectionFactory();
 
-            factory.Uri = new Uri("amqps://rlgpymfe:mYyzyJy_R0k6U8l5cOhG_7ZmKPlvjfXI@hawk.rmq.cloudamqp.com/rlgpymfe");
+            factory.Uri = new Uri("rabbitmqUri");
 
             using var connection = factory.CreateConnection();
 
